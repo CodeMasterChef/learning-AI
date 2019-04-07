@@ -75,6 +75,35 @@ mySet = {1,1,1,1,1,2,2,2,2,2,3,3,3,3}
 ```
 Kết quả: {1,2,3}
 
+Chúng ta có thể dùng hàm add() để thêm phần tử vào Set. Ví dụ: 
+
+```
+s.add(4)
+```
+Kết quả: {1,2,3,4}
+
+# So sánh: 
+ 
+ Các phép toán so sánh bao gồm: > , < , == , >= , <= , and, or.
+ 
+ Biểu thức điều kiện `if` không được dùng kèm với dấu ngoặc đơn như Javascript mà dùng dấu `:` ở cuối câu. Ví dụ:
+ 
+ ```
+ if 1 < 2:
+      print('yep!')
+ ``
+ 
+ Biểu thứ else cũng tương tự như thế. 
+ 
+ ```
+ if 1 == 2:
+      print('yep!')
+ else:
+      print('no')
+
+ ```
+ 
+
 
 
 
