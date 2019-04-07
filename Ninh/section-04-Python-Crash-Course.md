@@ -33,3 +33,53 @@ student = {'name': 'Ninh' , 'age' : 12}
 student['name']
 ```
 Kết quả: 'Ninh'
+
+# Boolean:
+Sử dung từ khóa `True` và `False`. 
+
+# Tupple: 
+
+Tupple là dạng danh sách giống như mảng nhưng sử dụng `()` để khởi tạo. Ví dụ: 
+```
+myTupple = (1,2,3) 
+```
+
+Khác với mảng, chúng ta không thể asign giá lại giá trị trong tupple. Ví dụ, đoạn code sau sẽ bị lỗi:
+```
+myTuple = (1,2,3) 
+myTuple[0] = 1
+
+```
+```
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-26-864eecaf1c6e> in <module>()
+      1 myTuple = (1,2,3)
+----> 2 myTuple[0] = 1
+
+TypeError: 'tuple' object does not support item assignment
+```
+
+
+# Tập hợp (Set): 
+
+Set là kiểu dữ liệu danh sách khộng trùng lắp. Sử dụng dấu `{}` để khởi tạo tập hợp.
+
+Chúng ta có thể vô tư thêm các phần tử trùng lắp vào tập hợp nhưng kết quả cuối cùng thì tập hợp vẫn không bị trùng lắp. 
+
+Ví dụ: 
+
+```
+mySet = {1,1,1,1,1,2,2,2,2,2,3,3,3,3}
+
+```
+Kết quả: {1,2,3}
+
+
+
+
+
+
+
+
+
