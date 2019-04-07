@@ -21,3 +21,19 @@ Kiểu dữ liệu thì có thể dùng '' hoặc "". Ví dụ:
 'single quote'
 "double quote"
 ```
+
+Để in một giá trị, chỉ cần dùng lệnh: print. Ví dụ:
+
+```
+print(myVar)
+
+```
+
+Có thể sử dụng string format để tạo một chuỗi được chèn giá trị của các biến. Ví dụ:
+
+```
+name = 'Ninh'
+age = 25
+'Helo, I am {} and I am {} age.'.format(name,age)
+```
+Kết quả: 'Helo, I am Ninh and I am 25 age.'
