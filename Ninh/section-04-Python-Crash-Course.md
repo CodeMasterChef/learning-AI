@@ -103,7 +103,39 @@ Kết quả: {1,2,3,4}
 
  ```
  
+# Vòng lặp:
 
+Sử dụng cấu trúc for in. Ví dụ: 
+
+```
+seq = [1,2,3,4,5]
+
+for item in seq: 
+      print(item)
+```
+
+Vòng lặp while: 
+```
+i = 1
+while i < 5:
+      print(i)
+      i = i + 1
+```
+Ta có thể sử dụng hàm range(param1, param2) để thực hiện vòng lặp:
+```
+for i in range(0,5):
+      print(i)
+```
+# Function: 
+
+Định nghĩa bằng từ khóa `def`. ví dụ: 
+
+```
+def my_func(param1):
+      print(param1)
+      
+my_func('hello')
+```
 
 
 
