@@ -48,6 +48,40 @@ age = 25
 'Helo, I am {one} and I am {two} year old.'.format(one = name, two = age)
 ```
 
+# Kí tự trong 1 chuỗi: 
+
+Một chuỗi trong Python có thể xem là một mảng. Ví dụ: 
+```
+s = 'hello'
+s[0]
+```
+Kết quả: 'h'
+
+Ngoài ra, ta dùng kí tự : để lấy phần tử từ bao nhiêu đến bao nhiêu. Ví dụ: 
+
+Lấy từ phần tử thứ 1 đến hết:
+
+```
+s = 'abcdefghijk'
+s[1:]
+```
+Kết quả thu được: 'bcdefghijk'
+
+Lấy từ vị trí bắt đầu cho đến vị trí thứ 3 (không bao gồm vị trí thứ 3): 
+
+```
+s = 'abcdefghijk'
+s[:3]
+
+```
+Lết quả thu được: 'abc'
+
+
+
+
+
+
+
 
 
 
