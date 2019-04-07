@@ -1,3 +1,4 @@
+# Số, biến: 
 Số nguyên: 1
 
 Số thực: 1.0
@@ -28,12 +29,29 @@ Kiểu dữ liệu thì có thể dùng '' hoặc "". Ví dụ:
 print(myVar)
 
 ```
-
+# String format: 
 Có thể sử dụng string format để tạo một chuỗi được chèn giá trị của các biến. Ví dụ:
 
 ```
 name = 'Ninh'
 age = 25
-'Helo, I am {} and I am {} age.'.format(name,age)
+'Helo, I am {} and I am {} year old.'.format(name,age)
 ```
-Kết quả: 'Helo, I am Ninh and I am 25 age.'
+Kết quả: 'Helo, I am Ninh and I am 25 year old.'
+
+Nếu lo ngại không truyền đúng thứ tự thì có thể dùng như sau: 
+
+
+```
+name = 'Ninh'
+age = 25
+'Helo, I am {one} and I am {two} year old.'.format(one = name, two = age)
+```
+
+
+
+
+
+
+
+
