@@ -14,3 +14,10 @@ Khai báo biến không cần kiểu dữ liệu. Ví dụ:
 ```
 myVar = 2
 ```
+
+Kiểu dữ liệu thì có thể dùng '' hoặc "". Ví dụ: 
+
+```
+'single quote'
+"double quote"
+```
