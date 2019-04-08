@@ -138,6 +138,19 @@ my_func('hello')
 ```
 
 
+# Map:
+
+Hàm map tương tự như trong Javascript, chúng ta có thể dùng các tạo ra một mảng từ một mảng khác dựa theo quy luật của một hàm. 
+Ví dụ: Tạo một mảng mới mà các phần tử có giá tr bằng bình phương của của các phần tử trong mảng [1,2,3,4,5]
+
+```
+def square(number):
+    return number * number
+oldList = [1,2,3,4,5]
+newList = list(map(square , oldList))
+
+```
+
 
 
 
