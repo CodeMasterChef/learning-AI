@@ -103,9 +103,41 @@ array([[1., 0.],
 ```
 
 
+# numpy.random.rand(d1, d2,...)
+
+Trả về một mảng chứa các phần tử sinh tự do từ 0 đến 1. 
+
+Ví dụ: 
+
+```
+import numpy as  np
+np.random.rand(3,2)
+```
+Kết quả trả về: 
+
+```
+array([[0.46322199, 0.38592549],
+       [0.54504234, 0.07416177],
+       [0.07517889, 0.21519514]])
+```
 
 
+# numby.random.randn(d1,d2,...)
 
+Trả về một mảnh có d1,d2,... chiều, trong đó các phần tử được sinh tự do theo phân phối chuẩn (phân phối Gauss).
+
+Ví dụ:
+
+```
+import numpy as  np
+np.random.randn(4)
+```
+
+Kết quả: 
+
+```
+array([-0.32572334, -2.47828912, -0.0445359 ,  0.29938883])
+```
 
 
 
