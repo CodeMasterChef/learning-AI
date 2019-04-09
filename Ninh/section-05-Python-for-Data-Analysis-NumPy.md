@@ -38,7 +38,7 @@ np.arange(0,10,2)
 ```
 Kết quả:  ```array([0, 2, 4, 6, 8])```
 
-# numby.zeros(number)
+# numpy.zeros(number)
 
 Khởi tạo một mảng có number các số 0. Hàm này thường được dùng để khởi tạo vector 0 với number chiều.
 Ví dụ: 
@@ -47,6 +47,73 @@ import numpy as  np
 np.zeros(3)
 ```
 Kết quả: ```array([0., 0., 0.])```
+
+
+Chúng ta cũng có thể tạo vector 0 nhiều chiều, ví dụ: tạo vector 0 có 3 dòng 2 cột:
+
+```
+import numpy as  np
+np.zeros((3,2))
+
+```
+Kết quả: 
+``` 
+array([[0., 0.],
+       [0., 0.],
+       [0., 0.]])
+
+```
+# numpy.ones(number) 
+Khởi tạo một mảng có number các phần tử 1.
+
+```
+import numpy as  np
+np.ones(3)
+
+```
+Kết quả: ```array([1., 1., 1.])```
+
+# numby.linspace(start, stop, number)
+
+Khởi tạo một mảng có number phần tử từ start đến stop.
+
+Ví dụ: 
+
+```
+import numpy as np
+np.linspace(1,10,3)
+```
+Kết quả : ```array([ 1. , 5.5, 10. ])```
+
+# numpy.eye(rowNumber , columnNumber)
+
+Trả về ma trận chéo có rowNumber d và columnNumber cột: đường chéo là 1, chỗ khác thì 0. 
+
+Ví vụ:
+```
+import numby as np
+np.eye(3,2)
+```
+Kết quả: 
+
+```
+array([[1., 0.],
+       [0., 1.],
+       [0., 0.]])
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
